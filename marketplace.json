@@ -1,0 +1,16 @@
+{
+  "packageHandle": "email_signature",
+  "packageFile": "build/email_signature.zip",
+  "title": "Email Signature",
+  "supportHostedOffsite": true,
+  "supportHostedOffsiteUrl": "https://www.bitter.de/support",
+  "singlePrice": 35,
+  "skillLevel": "Beginner",
+  "keywords": "email, signature, signatures, extend, append, text, body, edit, mail, e-mail, electronic, wrap, prepend, service",
+  "shortDescription": "Allows to add signatures to outgoing emails sent by concrete5 mail service.",
+  "categories": [16, 49, 45],
+  "supportPlan": 12,
+  "screenshots": [
+    "https://www.bitter.de/application/files/7416/1822/2693/1.jpg"
+  ],
+}

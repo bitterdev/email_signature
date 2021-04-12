@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <singlepages>
+        <page name="Email Signature" path="/dashboard/email_signature" filename="/dashboard/email_signature.php"
+              package="email_signature"/>
+    </singlepages>
+</concrete5-cif>
