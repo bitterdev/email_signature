@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: email_signature 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-30T10:18:11+00:00\n"
+"PO-Revision-Date: 2021-06-30T10:18:11+00:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/email_signature/install.xml:5
+#: packages/email_signature/controller.php:27
+msgid "Email Signature"
+msgstr ""
+
+#: packages/email_signature/controller.php:32
+msgid "Allows to add signatures to outgoing emails sent by concrete5 mail service."
+msgstr ""
+
+#: packages/email_signature/single_pages/dashboard/email_signature.php:46
+msgid "Locale"
+msgstr ""
+
+#: packages/email_signature/single_pages/dashboard/email_signature.php:51
+msgid "Signature"
+msgstr ""
+
+#: packages/email_signature/single_pages/dashboard/email_signature.php:62
+msgid "Save"
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:97
+msgid "Did you know?"
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:106
+#: packages/email_signature/elements/dashboard/did_you_know.php:136
+#: packages/email_signature/elements/dashboard/help.php:32
+#: packages/email_signature/elements/dashboard/reminder.php:35
+msgid "here"
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:103
+#, php-format
+msgid "I have many other add-ons to power up your site. Maybe the following add-on sounds interesting to you? If you want to see a full list with all of my add-ons, please click %s. As an existing customer you will get 10%% discount on your next purchase."
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:121
+msgid "Details"
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:136
+#, php-format
+msgid "Click %s to hide."
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/help.php:28
+#, php-format
+msgid "If you need support please click %s."
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/help.php:44
+msgid "Support"
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/install_post.php:24
+msgid "Thank You for purchasing this add-on!"
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/install_post.php:28
+msgid "Follow me on Twitter and Facebook to get the latest news and notifications about updates, new add-ons/themes and special offers."
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/install_post.php:37
+msgid "Follow @fabian_bitter"
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/license_check.php:36
+msgid "You have not connected your site to the Marketplace. To benefit from updates, connect your site to the Marketplace and assign the purchased licenses."
+msgstr ""
+
+#: packages/email_signature/elements/dashboard/reminder.php:32
+#, php-format
+msgid "Rate this add-on on concrete5.org and as a thank-you gift you can choose another add-on of mine up to $35. This offer may only be claimed once. Click %s to rate now."
+msgstr ""
+
+#: packages/email_signature/controllers/single_page/dashboard/email_signature.php:30
+msgid "Signature successfully saved."
+msgstr ""
+
+#: packages/email_signature/controllers/dialog/support/create_ticket.php:56
+msgid "Ticket Created"
+msgstr ""
+
+#: packages/email_signature/controllers/dialog/support/create_ticket.php:57
+msgid "Your ticket has been successfully created."
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:22
+msgid "Bug"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:23
+msgid "Enhancement"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:24
+msgid "Proposal"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:25
+msgid "Task"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:29
+msgid "Trivial"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:30
+msgid "Minor"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:31
+msgid "Major"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:32
+msgid "Critical"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:33
+msgid "Blocker"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:59
+msgid "E-Mail"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:64
+msgid "Title"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:69
+msgid "Content"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:74
+msgid "Type"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:79
+msgid "Priority"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:85
+msgid "Cancel"
+msgstr ""
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:89
+msgid "Create Ticket"
+msgstr ""
