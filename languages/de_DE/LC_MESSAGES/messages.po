@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: email_signature 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-30T10:18:11+00:00\n"
+"PO-Revision-Date: 2021-06-30 12:30+0200\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: de\n"
+
+#: packages/email_signature/install.xml:5
+#: packages/email_signature/controller.php:27
+#, fuzzy
+msgid "Email Signature"
+msgstr "E-Mail-Signatur"
+
+#: packages/email_signature/controller.php:32
+msgid ""
+"Allows to add signatures to outgoing emails sent by concrete5 mail service."
+msgstr ""
+"Ermöglicht das Hinzufügen von Signaturen zu ausgehenden E-Mails, die über "
+"den concrete5-Mail-Dienst versendet werden."
+
+#: packages/email_signature/single_pages/dashboard/email_signature.php:46
+#, fuzzy
+msgid "Locale"
+msgstr "Gebietsschema"
+
+#: packages/email_signature/single_pages/dashboard/email_signature.php:51
+#, fuzzy
+msgid "Signature"
+msgstr "Unterschrift"
+
+#: packages/email_signature/single_pages/dashboard/email_signature.php:62
+#, fuzzy
+msgid "Save"
+msgstr "Speichern"
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:97
+#, fuzzy
+msgid "Did you know?"
+msgstr "Schon gewusst?"
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:106
+#: packages/email_signature/elements/dashboard/did_you_know.php:136
+#: packages/email_signature/elements/dashboard/help.php:32
+#: packages/email_signature/elements/dashboard/reminder.php:35
+#, fuzzy
+msgid "here"
+msgstr "hier"
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:103
+#, fuzzy, php-format
+msgid ""
+"I have many other add-ons to power up your site. Maybe the following add-on "
+"sounds interesting to you? If you want to see a full list with all of my add-"
+"ons, please click %s. As an existing customer you will get 10%% discount on "
+"your next purchase."
+msgstr ""
+"Ich habe viele andere Add-ons die nützliche für Ihre Webseite sein könnte. "
+"Vielleicht klingt das folgende Add-on für Sie interessant? Wenn Sie eine "
+"vollständige Liste mit allen Add-Ons sehen möchten, klicken Sie bitte auf "
+"%s. Als Bestandskunde erhalten Sie 10%% Rabatt auf Ihren nächsten Einkauf."
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:121
+#, fuzzy
+msgid "Details"
+msgstr "Details"
+
+#: packages/email_signature/elements/dashboard/did_you_know.php:136
+#, fuzzy, php-format
+msgid "Click %s to hide."
+msgstr "Klicken Sie %s zum ausblenden."
+
+#: packages/email_signature/elements/dashboard/help.php:28
+#, fuzzy, php-format
+msgid "If you need support please click %s."
+msgstr "Wenn Sie Unterstützung benötigen, klicken Sie bitte auf %s."
+
+#: packages/email_signature/elements/dashboard/help.php:44
+#, fuzzy
+msgid "Support"
+msgstr "Support"
+
+#: packages/email_signature/elements/dashboard/install_post.php:24
+#, fuzzy
+msgid "Thank You for purchasing this add-on!"
+msgstr "Vielen Dank für den Kauf dieses Add-on!"
+
+#: packages/email_signature/elements/dashboard/install_post.php:28
+#, fuzzy
+msgid ""
+"Follow me on Twitter and Facebook to get the latest news and notifications "
+"about updates, new add-ons/themes and special offers."
+msgstr ""
+"Folgen Sie mir auf Twitter und Facebook, um die neuesten Nachrichten und "
+"Benachrichtigungen über Updates, neue Add-ons/Themen und Sonderangebote zu "
+"erhalten."
+
+#: packages/email_signature/elements/dashboard/install_post.php:37
+#, fuzzy
+msgid "Follow @fabian_bitter"
+msgstr "@fabian_bitter"
+
+#: packages/email_signature/elements/dashboard/license_check.php:36
+#, fuzzy
+msgid ""
+"You have not connected your site to the Marketplace. To benefit from "
+"updates, connect your site to the Marketplace and assign the purchased "
+"licenses."
+msgstr ""
+"Sie haben Ihre Website nicht mit dem Marketplace verbunden. Um von Updates "
+"zu profitieren, verbinden Sie Ihre Website mit dem Marketplace und weisen "
+"Sie die erworbenen Lizenzen zu."
+
+#: packages/email_signature/elements/dashboard/reminder.php:32
+#, fuzzy, php-format
+msgid ""
+"Rate this add-on on concrete5.org and as a thank-you gift you can choose "
+"another add-on of mine up to $35. This offer may only be claimed once. Click "
+"%s to rate now."
+msgstr ""
+"Bewerten Sie dieses Add-on auf concrete5.org und als Dankeschön-Geschenk "
+"können Sie ein weiteres Add-on von mir bis zu 35 $ wählen. Dieses Angebot "
+"kann nur einmal in Anspruch genommen werden. Klicken Sie %s, um jetzt zu "
+"bewerten."
+
+#: packages/email_signature/controllers/single_page/dashboard/email_signature.php:30
+#, fuzzy
+msgid "Signature successfully saved."
+msgstr "Signatur wurde erfolgreich gespeichert."
+
+#: packages/email_signature/controllers/dialog/support/create_ticket.php:56
+#, fuzzy
+msgid "Ticket Created"
+msgstr "Ticket erstellt"
+
+#: packages/email_signature/controllers/dialog/support/create_ticket.php:57
+#, fuzzy
+msgid "Your ticket has been successfully created."
+msgstr "Ihr Ticket wurde erfolgreich erstellt."
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:22
+#, fuzzy
+msgid "Bug"
+msgstr "Fehler"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:23
+#, fuzzy
+msgid "Enhancement"
+msgstr "Verbesserung"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:24
+#, fuzzy
+msgid "Proposal"
+msgstr "Vorschlag"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:25
+#, fuzzy
+msgid "Task"
+msgstr "Aufgabe"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:29
+#, fuzzy
+msgid "Trivial"
+msgstr "Trivial"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:30
+#, fuzzy
+msgid "Minor"
+msgstr "Gering"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:31
+#, fuzzy
+msgid "Major"
+msgstr "Groß"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:32
+#, fuzzy
+msgid "Critical"
+msgstr "Kritisch"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:33
+#, fuzzy
+msgid "Blocker"
+msgstr "Blocker"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:59
+#, fuzzy
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:64
+#, fuzzy
+msgid "Title"
+msgstr "Titel"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:69
+#, fuzzy
+msgid "Content"
+msgstr "Inhalt"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:74
+#, fuzzy
+msgid "Type"
+msgstr "Typ"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:79
+#, fuzzy
+msgid "Priority"
+msgstr "Priorität"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:85
+#, fuzzy
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: packages/email_signature/views/dialogs/support/create_ticket.php:89
+#, fuzzy
+msgid "Create Ticket"
+msgstr "Ticket erstellen"

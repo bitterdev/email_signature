@@ -1,0 +1,9 @@
+{
+  "name": "bitter/email_signature",
+  "type": "concrete5-package",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\EmailSignature\\": "src/Bitter/EmailSignature"
+    }
+  }
+}
