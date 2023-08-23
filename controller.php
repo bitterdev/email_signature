@@ -16,7 +16,7 @@ use Concrete\Core\Package\Package;
 class Controller extends Package
 {
     protected $pkgHandle = 'email_signature';
-    protected $pkgVersion = '1.2.0';
+    protected $pkgVersion = '1.5.0';
     protected $appVersionRequired = '8.0.0';
     protected $pkgAutoloaderRegistries = [
         'src/Bitter/EmailSignature' => 'Bitter\EmailSignature',
@@ -29,7 +29,7 @@ class Controller extends Package
 
     public function getPackageDescription()
     {
-        return t('Allows to add signatures to outgoing emails sent by concrete5 mail service.');
+        return t('Allows to add signatures to outgoing emails sent by Concrete Cms mail service.');
     }
 
     public function on_start()

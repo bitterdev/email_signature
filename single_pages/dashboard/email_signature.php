@@ -28,13 +28,6 @@ $token = $app->make(Token::class);
 /** @var $form Form */
 $form = $app->make(Form::class);
 
-/** @noinspection PhpUnhandledExceptionInspection */
-View::element('/dashboard/help', null, 'email_signature');
-/** @noinspection PhpUnhandledExceptionInspection */
-View::element('/dashboard/reminder', ["packageHandle" => "email_signature", "rateUrl" => "https://www.concrete5.org/marketplace/addons/email-signature/reviews"], 'email_signature');
-/** @noinspection PhpUnhandledExceptionInspection */
-View::element('/dashboard/license_check', ["packageHandle" => "email_signature"], 'email_signature');
-
 ?>
 
 <form action="#" method="post">
@@ -44,7 +37,7 @@ View::element('/dashboard/license_check', ["packageHandle" => "email_signature"]
 
     <div class="form-group">
         <?php echo $form->label("locale", t("Locale"), ["class" => "control-label"]); ?>
-        <?php echo $form->select("locale", $locales, $locale, ["class" => "form-control"]); ?>
+        <?php echo $form->select("locale", $locales, $locale ?? null, ["class" => "form-control"]); ?>
     </div>
 
     <div class="form-group">
@@ -52,12 +45,9 @@ View::element('/dashboard/license_check', ["packageHandle" => "email_signature"]
         <?php echo $editor->outputBlockEditModeEditor("signature", null); ?>
     </div>
 
-    <?php /** @noinspection PhpUnhandledExceptionInspection */
-    View::element('/dashboard/did_you_know', ["packageHandle" => "email_signature"], 'email_signature'); ?>
-
     <div class="ccm-dashboard-form-actions-wrapper">
         <div class="ccm-dashboard-form-actions">
-            <div class="pull-right">
+            <div class="float-end">
                 <button type="submit" class="btn btn-primary">
                     <i class="fa fa-save" aria-hidden="true"></i> <?php echo t("Save"); ?>
                 </button>
