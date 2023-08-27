@@ -30,6 +30,10 @@ $form = $app->make(Form::class);
 
 ?>
 
+<div class="ccm-dashboard-header-buttons">
+    <?php \Concrete\Core\View\View::element("dashboard/help", [], "email_signature"); ?>
+</div>
+
 <form action="#" method="post">
     <?php echo $token->output('save_signature'); ?>
 

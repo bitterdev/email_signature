@@ -10,11 +10,10 @@
 
 namespace Concrete\Package\EmailSignature\Controller\SinglePage\Dashboard;
 
-use Concrete\Core\Entity\Site\Site;
-use Concrete\Core\Page\Controller\DashboardPageController;
 use Bitter\EmailSignature\Settings;
+use Concrete\Core\Page\Controller\DashboardSitePageController;
 
-class EmailSignature extends DashboardPageController
+class EmailSignature extends DashboardSitePageController
 {
     public function view()
     {
@@ -22,7 +21,6 @@ class EmailSignature extends DashboardPageController
         $settings = $this->app->make(Settings::class);
 
         if ($this->token->validate("save_signature")) {
-            /** @noinspection PhpComposerExtensionStubsInspection */
             $signatures = json_decode($this->request->request->get("signatures", '{}'), true);
 
             $settings->setSignatures($signatures);
@@ -32,8 +30,7 @@ class EmailSignature extends DashboardPageController
 
         $locales = [];
 
-        /** @var $site Site */
-        $site = $this->app->make('site')->getActiveSiteForEditing();
+        $site = $this->getSite();
 
         foreach ($site->getLocales() as $locale) {
             $locales[$locale->getLocale()] = $locale->getLanguageText();

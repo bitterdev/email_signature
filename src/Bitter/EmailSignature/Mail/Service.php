@@ -30,16 +30,20 @@ class Service extends CoreMailService
     {
         /** @var $settings Settings */
         $settings = $this->app->make(Settings::class);
+        /** @var $siteService \Concrete\Core\Site\Service */
+        $siteService = $this->app->make(\Concrete\Core\Site\Service::class);
 
         // Save original body
         $body = $this->body;
         $bodyHTML = $this->bodyHTML;
 
+        $site = $siteService->getSite();
+
         // Append signature to body
-        $this->body = $this->body . strip_tags($settings->getSignature());
+        $this->body = $this->body . strip_tags($settings->getSignature(null, $site));
 
         if (strlen($this->bodyHTML) > 0) {
-            $this->bodyHTML = $this->bodyHTML . $settings->getSignature();
+            $this->bodyHTML = $this->bodyHTML . $settings->getSignature(null, $site);
         }
 
         // Send the email

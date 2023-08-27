@@ -15,6 +15,7 @@ use Concrete\Core\Application\Application;
 use Concrete\Core\Config\Repository\Repository;
 use Concrete\Core\Entity\Site\Site;
 use Concrete\Core\Localization\Localization;
+use Concrete\Core\Site\Service;
 
 class Settings
 {
@@ -23,11 +24,11 @@ class Settings
 
     public function __construct(
         Application $app,
-        Repository $config
+        Service $siteService
     )
     {
         $this->app = $app;
-        $this->config = $config;
+        $this->config = $siteService->getActiveSiteForEditing()->getConfigRepository();
     }
 
     /**
@@ -50,7 +51,7 @@ class Settings
      * @param mixed|string $locale
      * @return mixed|string
      */
-    public function getSignature($locale = null)
+    public function getSignature($locale = null, $site = null)
     {
         $signatures = $this->getSignatures();
 
@@ -61,8 +62,10 @@ class Settings
         if (is_array($signatures) && isset($signatures[$locale])) {
             return $signatures[$locale];
         } else {
-            /** @var $site Site */
-            $site = $this->app->make('site')->getActiveSiteForEditing();
+            if (!$site instanceof Site) {
+                /** @var $site Site */
+                $site = $this->app->make('site')->getActiveSiteForEditing();
+            }
 
             $defaultLocale = $site->getDefaultLocale();
 

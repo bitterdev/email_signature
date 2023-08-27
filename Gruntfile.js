@@ -58,6 +58,8 @@ module.exports = function (grunt) {
                     {src: ['single_pages/**'], dest: "dist/"},
                     {src: ['languages/**'], dest: "dist/"},
                     {src: ['src/**'], dest: "dist/"},
+                    {src: ['routes/**'], dest: "dist/"},
+                    {src: ['views/**'], dest: "dist/"},
                     {src: ['CHANGELOG'], dest: "dist/"},
                     {src: ['controller.php'], dest: "dist/", filter: 'isFile'},
                     {src: ['icon.png'], dest: "dist/", filter: 'isFile'},
