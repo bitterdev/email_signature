@@ -16,7 +16,7 @@ use Concrete\Core\Package\Package;
 class Controller extends Package
 {
     protected $pkgHandle = 'email_signature';
-    protected $pkgVersion = '1.6.0';
+    protected $pkgVersion = '1.6.1';
     protected $appVersionRequired = '8.0.0';
     protected $pkgAutoloaderRegistries = [
         'src/Bitter/EmailSignature' => 'Bitter\EmailSignature',

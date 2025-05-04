@@ -34,6 +34,8 @@ $form = $app->make(Form::class);
     <?php \Concrete\Core\View\View::element("dashboard/help", [], "email_signature"); ?>
 </div>
 
+<?php \Concrete\Core\View\View::element("dashboard/did_you_know", [], "email_signature"); ?>
+
 <form action="#" method="post">
     <?php echo $token->output('save_signature'); ?>
 
